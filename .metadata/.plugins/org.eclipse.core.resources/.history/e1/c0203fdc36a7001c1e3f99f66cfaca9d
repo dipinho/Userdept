@@ -4,7 +4,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
@@ -21,7 +20,6 @@ public class User {
 	
 	
 	@ManyToOne
-	@JoinColumn(name = "department_id") //configurando o nome da FK do bd
 	private Department department;	//composição de objetos. assosciação entre entidades
 	
 	public User() {

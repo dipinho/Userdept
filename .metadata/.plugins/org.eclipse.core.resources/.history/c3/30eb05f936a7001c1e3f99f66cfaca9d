@@ -21,7 +21,7 @@ public class User {
 	
 	
 	@ManyToOne
-	@JoinColumn(name = "department_id") //configurando o nome da FK do bd
+	@JoinColumn(name = "department_id")
 	private Department department;	//composição de objetos. assosciação entre entidades
 	
 	public User() {
