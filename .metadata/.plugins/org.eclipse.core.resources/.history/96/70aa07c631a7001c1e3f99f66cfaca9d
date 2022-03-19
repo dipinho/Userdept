@@ -1,0 +1,6 @@
+package com.dipinho.userdept.entities;
+
+public class Department {
+	private Long id;
+	private String nome;
+}

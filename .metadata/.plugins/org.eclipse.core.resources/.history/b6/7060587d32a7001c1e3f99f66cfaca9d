@@ -1,0 +1,5 @@
+package com.dipinho.userdept.entities;
+
+public class User {
+
+}

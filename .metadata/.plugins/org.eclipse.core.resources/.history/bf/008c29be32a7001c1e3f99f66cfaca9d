@@ -1,0 +1,12 @@
+package com.dipinho.userdept.entities;
+
+public class User {
+	private Long id;
+	private String nome;
+	private String email;
+	
+	private Department department;	//composição de objetos. assosciação entre entidades
+	
+	public User():
+		
+}	
