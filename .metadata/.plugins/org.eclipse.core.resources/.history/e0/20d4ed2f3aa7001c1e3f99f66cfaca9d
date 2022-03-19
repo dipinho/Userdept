@@ -15,6 +15,7 @@ public class Department {
 	private Long id;
 	private String name;
 	
+	
 	public Department() {
 		
 	}
@@ -27,10 +28,10 @@ public class Department {
 		this.id = id;
 	}
 	public String getNome() {
-		return name;
+		return nome;
 	}
 	public void setNome(String nome) {
-		this.name = nome;
+		this.nome = nome;
 	}
 	
 	
