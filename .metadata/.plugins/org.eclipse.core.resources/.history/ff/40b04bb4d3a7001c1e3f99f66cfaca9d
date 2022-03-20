@@ -1,0 +1,5 @@
+package com.dipinho.userdept.controllers;
+
+public class UserController {
+
+}

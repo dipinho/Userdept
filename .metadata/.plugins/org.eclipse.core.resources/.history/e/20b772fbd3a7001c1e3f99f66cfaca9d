@@ -1,0 +1,9 @@
+package com.dipinho.userdept.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController		// Pra dizer que essa classe é um controlador REST
+
+public class UserController {
+
+}

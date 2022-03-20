@@ -1,0 +1,6 @@
+package com.dipinho.userdept.repositories;
+
+public class UserRepository {
+	
+
+}
