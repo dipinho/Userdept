@@ -34,7 +34,7 @@ public class UserController {
 		return result;
 	}
 	
-	@PostMapping		// endpoint pra salvar o usuario
+	@PostMapping(value = "/{id}")		// endpoint pra salvar o usuario
 	public User insert(@RequestBody User user){	
 		User result = repository.save(user); // vai enviar pro bd o insert e vai retornar uma nova referencia
 		return result;
